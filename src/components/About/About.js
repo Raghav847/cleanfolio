@@ -5,6 +5,13 @@ import './About.css'
 
 const About = () => {
   const { name, role, description, resume, social, picture } = about
+  let resumeUrl = ''
+
+  if (resume) {
+    resumeUrl = resume.startsWith('http')
+      ? resume
+      : `${process.env.PUBLIC_URL}/${resume.replace(/^\//, '')}`
+  }
 
   return (
     <div className='about center'>
@@ -34,8 +41,8 @@ const About = () => {
       </div>
 
       <div className='about__contact center'>
-        {resume && (
-          <a href={resume}>
+        {resumeUrl && (
+          <a href={resumeUrl} target='_blank' rel='noreferrer'>
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
