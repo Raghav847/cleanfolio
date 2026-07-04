@@ -12,7 +12,7 @@ const about = {
 
   description:
     'I design high-scale backend architectures, deploy optimized AI/LLM pipelines, and ship clean, developer-friendly APIs. Equal parts rigorous engineer and rapid prototyper. Active in the market for New Grad SWE roles.',
-  resume: '/resume_Raghav_.pdf',
+  resume: '/resume_Raghav.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/raghav-k847/',
     github: 'https://github.com/Raghav847',
@@ -96,6 +96,14 @@ const projects = [
       'Multi-tool RAG agent that lifts answer quality with semantic retrieval and reusable prompt workflows.',
     stack: ['TypeScript', 'Node.js', 'Python', 'OpenAI API', 'RAG'],
     sourceCode: 'https://github.com/Raghav847/agents-production',
+    livePreview: '',
+  },
+  {
+    name: 'Greenlight',
+    description:
+      'Production-grade Go JSON API with rate limiting, PostgreSQL-backed persistence, and user authentication.',
+    stack: ['Go', 'PostgreSQL', 'REST API', 'JWT'],
+    sourceCode: 'https://github.com/Raghav847/greenlight',
     livePreview: '',
   },
 ]
