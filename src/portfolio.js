@@ -12,7 +12,7 @@ const about = {
 
   description:
     'I design high-scale backend architectures, deploy optimized AI/LLM pipelines, and ship clean, developer-friendly APIs. Equal parts rigorous engineer and rapid prototyper. Active in the market for New Grad SWE roles.',
-  resume: '/resume_Raghav.pdf',
+  resume: '/Raghav_Khandelwal_Resume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/raghav-k847/',
     github: 'https://github.com/Raghav847',
